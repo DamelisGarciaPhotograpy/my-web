@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:#f6f6f6  ;
+}
+
+li,a{
+    font-family:'Gayathri', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+
+   
+}
+
+header{
+    width: 100%;
+    z-index: 1;
+    margin: 0;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px 5% 10px 10px;
+    position: fixed;
+    
+    
+}
+
+.lista{
+    display:flex;
+    flex-flow: row wrap;    
+    list-style: none;
+    background-color:black;
+    
+
+}
+
+.lista li{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:transparent;
+    border-right: solid 2px white;
+
+}
+
+.lista li a{
+    transition: 0.3s;
+}
+
+.lista li a:hover{
+    padding: 10px;
+    border-radius: 10px;
+    /*background-color: rgba(108, 109, 109, 0.514);*/
+    color: #1ab2ff;
+    
+    
+}
+
+.photo{
+    color: white;
+    margin-right: auto;
+    background-color:transparent;
+    font-family: 'Gayathri', sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.damelis{
+    background-color: transparent;
+    color: white;
+    font-family:'Great Vibes', cursive;
+    font-size: 3.125rem;
+}
+
+img{
+    width: 100%;   
+    border: 0;
+    margin: 0;
+    padding: 80px 0px 0px 0px; 
+    position:static;  
+}
+
+.container2{
+ 
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.cuaderno{
+    
+    width: 30%;
+    height: 500px;
+    margin: 20px 0% 0px 1%;
+    background-color: #f6f6f6;
+    
+    border-radius: 10px;
+
+}
+
+
+
+
+
+.encima{
+    background-color: transparent;
+    position: absolute;    
+    top: 12%;
+    left: 1%;    
+    color:white; 
+    text-shadow: 1px 1px 10px black;
+    
+    width: 55%;
+    height: 50px;
+    font-family:'Great Vibes', cursive;
+    text-align:justify ;
+    letter-spacing: 4px;
+    font-size:  32px;
+    
+
+}
+
+
+
+
+.container4{
+    width:100% ;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+
+    
+}
+
+
+
+
+.uno img{
+    margin: 0;
+    padding: 0;
+    width:100% ;
+    height: 50%;
+}
+
+.dos img{
+    margin: 0;
+    padding: 0;
+    width:100% ;
+    height: 50%;
+}
+
+.tres img{
+    margin: 0;
+    padding: 0;
+    width:100% ;
+    height: 50%;
+}
+
+.cuadro{
+    color: #838383;
+    font-family: 'Montserrat', sans-serif;
+    text-align:justify ;
+    letter-spacing: px;
+    padding: 10px;
+    font-size:  20px;
+}
+
+.social li a{
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+}
+
+.social li {
+    text-decoration: none;
+    list-style: none;
+    width: 68px;
+    height: 68px;
+    background-color: #1ab2ff;
+}
+
+
+.social{
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    
+}
+
+.social li img{
+    padding: 0;
+    margin: 0;
+    width: 34px;
+    height: 34px;
+    background-color: blue;
+}
+footer{
+    display:flex;
+    flex-flow: column wrap;
+
+    color: white;
+}
+
+.foot{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    background-color:black;   
+}
+
+.icon{
+    background-color: black;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.picture1{
+    display: flex;
+    padding-left: 20px;
+   
+    width: 400px;
+    height: 450px;
+}
+
+.contenedor-perfil{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    position: fixed;
+    top: 90px;
+    background-color: #f6f6f6;
+    
+    width: 100%;
+    height: 554px;
+
+}
+
+.cont-perfil{
+    display:flex;
+}
+.p-perfil{
+    
+    align-self: center;
+    padding: 20px;
+    
+  
+    color: #6e6d6d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    text-align:justify ;
+}
+
+
+
+.construction{
+    background-color: #f6f6f6;
+    width: 50%;
+    height:34.375rem;
+}
